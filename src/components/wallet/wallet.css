@@ -1,0 +1,24 @@
+.wallet{
+    width: 200px;
+    padding: 30px;
+}
+
+.wallet .container{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.wallet p{
+    color: #3B99FC;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.link{
+    text-decoration: none;
+}

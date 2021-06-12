@@ -1,0 +1,16 @@
+div .container{
+    width: 80%;
+    margin: auto;
+    color: #6C756E;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.container h1{
+    font-weight: 500;
+}
+
+.container p{
+    font-size: 17px;
+    line-height: 1.5;
+}
