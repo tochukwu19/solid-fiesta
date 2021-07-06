@@ -1,0 +1,18 @@
+body{
+    background-color: #DFE9E8;
+}
+
+.Home-container{
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+.Home-container button{
+    padding: 15px;
+    border: none;
+    color: #fff;
+    background-color:#07305A;
+    font-size: 20px;
+    border-radius: 10px;
+}
