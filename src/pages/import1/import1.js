@@ -18,7 +18,7 @@ export default function Import(props) {
         <div className="import">
             <div className="container">
                 <header>
-                    <h2>Input parameters to commence Token Validation</h2>
+                    <h2>Import</h2>
                 </header>
                 <nav>
                     <ul>

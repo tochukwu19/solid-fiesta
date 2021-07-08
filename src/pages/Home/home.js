@@ -9,7 +9,7 @@ export default function Home() {
         <>
             <div className="Home-container">
                 <div className="Header">
-                    <img src={Head} alt="Header" style={{"height":"300px"}}/>
+                    <img src={Head} alt="Header"/>
                     <h1 className="mb">Token Validator</h1>
                     <p className="mt">Open protocol for
                         Validating various

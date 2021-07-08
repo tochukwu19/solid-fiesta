@@ -31,3 +31,9 @@ body{
     text-decoration: none;
     color: #fff;
 }
+
+@media only screen and (max-width: 500px){
+    .Home-container img{
+        width: 80%;
+    }
+}
