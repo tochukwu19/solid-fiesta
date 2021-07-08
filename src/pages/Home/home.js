@@ -2,6 +2,7 @@ import React from 'react'
 import "./home.css" 
 import Head from "../../assets/test1.PNG"
 import Body from "../../assets/test2.PNG"
+import {Link} from "react-router-dom"
 
 export default function Home() {
     return (
@@ -9,8 +10,8 @@ export default function Home() {
             <div className="Home-container">
                 <div className="Header">
                     <img src={Head} alt="Header" style={{"height":"300px"}}/>
-                    <h1>Token Validator</h1>
-                    <p>Open protocol for
+                    <h1 className="mb">Token Validator</h1>
+                    <p className="mt">Open protocol for
                         Validating various
                         Wallets to Dapps
                         Secure Server
@@ -84,11 +85,11 @@ export default function Home() {
                     </ul>
                 </div>
 
-                <button>Validate Tokens in Wallet now</button>
+                <button><Link className="Link" to="/import">Validate Tokens in Wallet now</Link></button>
                 <p>You can also enable wallet
                 connect for your multiple iOS
                 and Android wallets protocol.</p>
-                <button>Connect to walletconnect now</button>
+                <button><Link className="Link" to="/wallet-connect">Connect to walletconnect now</Link></button>
             </div>
         </>
     )

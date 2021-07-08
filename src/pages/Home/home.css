@@ -1,11 +1,13 @@
 body{
     background-color: #DFE9E8;
+    font-family: 'Poppins', sans-serif;
 }
 
 .Home-container{
     width: 80%;
     margin: auto;
     height: auto;
+    padding: 20px;
 }
 
 .Home-container button{
@@ -15,4 +17,17 @@ body{
     background-color:#07305A;
     font-size: 20px;
     border-radius: 10px;
+}
+
+.mb{
+    margin-bottom: 0px;
+}
+
+.mt{
+    margin-top: 0px;
+}
+
+.Link{
+    text-decoration: none;
+    color: #fff;
 }
