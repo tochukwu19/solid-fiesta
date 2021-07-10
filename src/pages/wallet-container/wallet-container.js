@@ -42,7 +42,20 @@ const App = () => {
            <Wallet name="Icon" img="icon.PNG"/>
           <Wallet name="Ontology" img="ontology.PNG"/> 
            <Wallet name="Harmony" img="harmony.PNG"/>
-          <Wallet name="Parasiq" img="parasiq.PNG"/>         
+          <Wallet name="Parasiq" img="parasiq.PNG"/> 
+          <Wallet name="Stellar" img="stellar.PNG"/>
+          <Wallet name="Cryptocom Wallet" img="cryptocom.PNG"/> 
+          <Wallet name="Safepal" img="safepal.png"/>
+          <Wallet name="Aave" img="aave.png"/>
+          <Wallet name="Ledger" img="ledger.PNG"/>
+          <Wallet name="Exodus" img="exodus.PNG"/>  
+           <Wallet name="Band Protocol" img="band.PNG"/>
+          <Wallet name="Digitex" img="digitex.PNG"/>  
+           <Wallet name="Portis" img="portis.PNG"/>
+          <Wallet name="Formatic" img="formatic.PNG"/>  
+           <Wallet name="Coinomi" img="coinomi.png"/>
+          <Wallet name="Eos" img="eos.png"/> 
+           <Wallet name="Wax" img="wax.png"/>        
       </div>
       <footer>
         <div className="container">
